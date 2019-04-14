@@ -1,4 +1,2 @@
-# hello-world
-Testing out
-
-Typing more things because I'm going through the tutorial.
+# Personal website
+This is my personal portfolio website.
