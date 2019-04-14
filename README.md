@@ -1,2 +1,2 @@
-# Personal website
-This is my personal portfolio website.
+# asmithorn.github.io
+This is my personal portfolio website (in development).
