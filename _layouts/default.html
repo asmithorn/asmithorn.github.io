@@ -13,7 +13,7 @@
         <h1>Heading</h1>
         <nav role="navigation">
             <ul>
-              {% for item in data.navigation.docs %}
+              {% for item in site.data.navigation.docs %}
                 <li><a href="{{ item.url }}">{{ item.title }}</a></li>
               {% endfor %}
             </ul>
