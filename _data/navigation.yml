@@ -1,7 +1,10 @@
-<nav>
-  <ul>
-     {% for item in asmithorn.github.io %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-     {% endfor %}
-  </ul>
-</nav>
+docs:
+
+- title: Artwork
+  url: artwork/index.html
+
+- title: Design
+  url: design/index.html
+
+- title: About
+  url: about/index.html
