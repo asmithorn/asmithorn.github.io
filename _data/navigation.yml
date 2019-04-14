@@ -1,13 +1,13 @@
 docs:
 
 - title: Home
-  url: index.html
+  url: /
 
 - title: Artwork
-  url: artwork/index.html
+  url: /artwork/
 
 - title: Design
-  url: design/index.html
+  url: /design/
 
 - title: About
-  url: about/index.html
+  url: /about/
