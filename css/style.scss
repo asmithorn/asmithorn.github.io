@@ -2,3 +2,9 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials
 ---
+
+@import fonts.scss;
+
+body {
+  font-family:'unnaregular', 'Times New Roman', Times, serif;
+}
