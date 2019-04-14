@@ -13,9 +13,9 @@
         <h1>Heading</h1>
         <nav role="navigation">
             <ul>
-              <li>navigation item</li>
-              <li>navigation item</li>
-              <li>navigation item</li>
+              {% for item in site.data.navigation.docs %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endfor %}
             </ul>
           </nav>
     </header>
