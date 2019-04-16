@@ -79,14 +79,17 @@ body {
   .c-site-nav__link {
     color: white;
     display: block;
+    font-family: 'unnabold';
     font-size: 1.125em;
-    padding: .5em;
+    letter-spacing: .03em;
+    padding: .25em .5em;
+    text-decoration: none;
   }
 
   .c-site-nav__link--active {
     background-color: $pink;
+    border-radius: .25em;
     color: $maroon;
-    text-decoration: none;
   }
 
 
@@ -106,11 +109,21 @@ body {
   .o-layout__header {
     display: flex;
     justify-content: space-between;
+  }
+
+  .c-name {text-align: left;}
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+  .o-row--1200 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  .c-name {text-align: left;}
 
 }
