@@ -41,6 +41,8 @@ html {
 
 body {
   background-image: linear-gradient(to bottom right, $maroon, $teal);
+  background-repeat: none;
+  background-size: cover;
   color: white;
 }
 
@@ -93,7 +95,7 @@ body {
 
 .u-center {text-align: center;}
 
-.u-margin--20 {margin: 1.25em;}
+.u-padding--20 {padding: 1.25em;}
 
 
 
@@ -104,6 +106,9 @@ body {
   .o-layout__header {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .c-name {text-align: left;}
