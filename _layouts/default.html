@@ -11,11 +11,11 @@
   <body>
     <header class="o-row o-row--1200 o-layout__header u-padding--20">
       <div class="c-name">
-        <p class="c-name c-name__name">Amanda Smith</p>
-        <p class="c-name c-name__subtext">Artist &amp; Designer</p>
+        <p class="c-name__name">Amanda Smith</p>
+        <p class="c-name__subtext">Artist &amp; Designer</p>
       </div>
         <nav role="navigation" class="c-site-nav">
-            <ul class="c-site-nav c-site-nav__list">
+            <ul class="c-site-nav__list">
               {% for item in site.data.navigation.docs %}
                 <li>
                   <a class="c-site-nav__link {% if item.url == page.url %}c-site-nav__link--active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>

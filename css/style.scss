@@ -26,7 +26,9 @@ $gray: #CED3DC;
   padding: 0;
 }
 
-/* Shutter Out Vertical */
+/* Shutter Out Vertical 
+https://github.com/IanLunn/Hover/blob/master/scss/hover.scss
+*/
 @mixin hardwareAccel() {
 	// Improve performance on mobile/tablet devices
 	// Perspective reduces blurryness of text in Chrome
