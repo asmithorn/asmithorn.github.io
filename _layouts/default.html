@@ -18,7 +18,7 @@
             <ul class="c-site-nav c-site-nav__list">
               {% for item in site.data.navigation.docs %}
                 <li>
-                  <a class="c-site-nav__link{% if item.url == page.url %}c-site-nav__link--active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+                  <a class="c-site-nav__link {% if item.url == page.url %}c-site-nav__link--active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
               {% endfor %}
             </ul>

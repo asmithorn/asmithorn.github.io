@@ -65,9 +65,17 @@ body {
     justify-content: center;
   }
 
-  .c-site-nav__link {}
+  .c-site-nav__link {
+    color: white;
+    display: block;
+    font-size: 1.125em;
+    padding: .5em;
+  }
 
-  .c-site-nav__link--active {}
+  .c-site-nav__link--active {
+    background-color: #f1dede;
+    text-decoration: none;
+  }
 
 
 
