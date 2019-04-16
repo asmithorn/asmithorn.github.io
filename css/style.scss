@@ -10,6 +10,15 @@
 
 
 
+/*--VARIABLES--*/
+$maroon: #3A001E;
+$teal: #518387;
+$pink: #f1dede;
+$gray: #CED3DC;
+
+
+
+
 /*--MIXINS--*/
 @mixin list-reset {
   list-style-type: none;
@@ -31,7 +40,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #3A001E, #518387);
+  background-image: linear-gradient(to bottom right, $maroon, $teal);
   color: white;
 }
 
@@ -62,7 +71,7 @@ body {
   .c-site-nav__list {
     @include list-reset();
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .c-site-nav__link {
@@ -73,7 +82,8 @@ body {
   }
 
   .c-site-nav__link--active {
-    background-color: #f1dede;
+    background-color: $pink;
+    color: $maroon;
     text-decoration: none;
   }
 
