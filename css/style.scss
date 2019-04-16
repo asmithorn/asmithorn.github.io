@@ -148,7 +148,7 @@ body {
     padding: .25em .5em;
     text-decoration: none;
 
-    &:hover {@include shutter-out-vertical;}
+    @include shutter-out-vertical;
   }
 
   .c-site-nav__link--active {
