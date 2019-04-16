@@ -3,8 +3,24 @@
 # only Main files contain this front matter, not partials
 ---
 
+/*--PARTIALS--*/
 @import "normalize";
 @import "fonts";
+
+
+
+
+/*--MIXINS--*/
+@mixin list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/*--ELEMENTS--*/
 
 html {
   font-family: 'unnaregular', 'Times New Roman', Times, serif;
@@ -13,3 +29,44 @@ html {
   font-weight: normal;
   line-height: 1.5;
 }
+
+
+
+
+/*--COMPONENTS--*/
+
+.c-name {
+  text-align: center;
+}
+
+  .c-name__name {
+    font-size: 2.2em;
+    line-height: 1;
+    margin: 0 0 .5rem 0;
+  }
+
+  .c-name__subtext {
+    font-size: 1.4em;
+    line-height: 1;
+    margin: 0;
+  }
+
+.c-site-nav {}
+
+  .c-site-nav__list {
+    @include list-reset();
+    display: flex;
+    justify-content: center;
+  }
+
+  .c-site-nav__list-item {}
+
+  .c-site-nav__list-item--active {}
+
+
+
+/*--UTILITIES--*/
+
+.u-center {text-align: center;}
+
+.u-margin--2em {margin: 2em;}

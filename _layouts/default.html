@@ -9,15 +9,15 @@
   </head>
 
   <body>
-    <header>
-      <div>
-        <p>Amanda Smith</p>
-        <p>Artist &amp; Designer</p>
+    <header class="u-margin--2em">
+      <div class="c-name">
+        <p class="c-name c-name__name">Amanda Smith</p>
+        <p class="c-name c-name__subtext">Artist &amp; Designer</p>
       </div>
-        <nav role="navigation">
-            <ul>
+        <nav role="navigation" class="c-site-nav">
+            <ul class="c-site-nav c-site-nav__list">
               {% for item in site.data.navigation.docs %}
-                <li class="{% if item.url == page.url %}active{% endif %}">
+                <li class="c-site-nav__list-item {% if item.url == page.url %}c-site-nav__list-item--active{% endif %}">
                   <a href="{{ item.url }}">{{ item.title }}</a>
                 </li>
               {% endfor %}
