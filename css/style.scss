@@ -30,12 +30,18 @@ html {
   line-height: 1.5;
 }
 
+body {
+  background-image: linear-gradient(to bottom right, #3A001E, #518387);
+  color: white;
+}
+
 
 
 
 /*--COMPONENTS--*/
 
 .c-name {
+  margin-bottom: 1.25em;
   text-align: center;
 }
 
@@ -69,4 +75,4 @@ html {
 
 .u-center {text-align: center;}
 
-.u-margin--2em {margin: 2em;}
+.u-margin--20 {margin: 1.25em;}
