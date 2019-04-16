@@ -41,9 +41,9 @@ html {
 
 body {
   background-image: linear-gradient(to bottom right, $maroon, $teal);
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
+  height: 100vh;
 }
 
 
