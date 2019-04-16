@@ -59,6 +59,7 @@ https://github.com/IanLunn/Hover/blob/master/scss/hover.scss
   transition-duration: .3s;
 
 	&:before {
+    border-radius: .25em;
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -122,13 +123,13 @@ body {
 }
 
   .c-name__name {
-    font-size: 2.2em;
+    font-size: 2em;
     line-height: 1;
-    margin: 0 0 .5rem 0;
+    margin: 0 0 .2em 0;
   }
 
   .c-name__subtext {
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1;
     margin: 0;
   }
