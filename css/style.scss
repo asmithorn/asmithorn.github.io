@@ -140,6 +140,7 @@ body {
   }
 
   .c-site-nav__link {
+    border-radius: .25em;
     color: white;
     display: block;
     font-family: 'unnabold';
@@ -147,13 +148,11 @@ body {
     letter-spacing: .03em;
     padding: .25em .5em;
     text-decoration: none;
-
     @include shutter-out-vertical;
   }
 
   .c-site-nav__link--active {
     background-color: $pink;
-    border-radius: .25em;
     color: $maroon;
   }
 
@@ -177,6 +176,26 @@ body {
   }
 
   .c-name {text-align: left;}
+
+  .c-site-nav {width: 60%;}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .c-site-nav {width: 50%;}
+
+}
+
+
+
+
+@media only screen and (min-width: 960px) {
+
+  .c-site-nav {width: 40%;}
 
 }
 
