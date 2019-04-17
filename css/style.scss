@@ -139,7 +139,7 @@ h2 {
     content: '';
     display: table;
   }
-  &::before {clear: both;}
+  &::after {clear: both;}
 }
 
 
