@@ -173,7 +173,7 @@ h2 {
     display: block;
     font-family: 'unnabold';
     font-size: 1.125em;
-    letter-spacing: .$tracking;
+    letter-spacing: $tracking;
     padding: .25em .5em;
     text-decoration: none;
     @include shutter-out-vertical;
