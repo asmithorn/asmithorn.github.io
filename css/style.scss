@@ -215,6 +215,8 @@ h2 {
   width: fit-content;
 }
 
+.u-text--large {font-size: 1.5em;}
+
 
 
 
@@ -226,9 +228,13 @@ h2 {
     justify-content: space-between;
   }
 
-  .c-name {text-align: left;}
+  .c-name {
+    text-align: left;
+    // width: 40%;
+  }
 
-  .c-site-nav {width: 60%;}
+  // .c-site-nav {width: 60%;}
+    .c-site-nav {flex-grow: 2;}
 
 }
 
@@ -237,7 +243,9 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 
-  .c-site-nav {width: 50%;}
+  // .c-name {width: 50%;}
+
+  // .c-site-nav {width: 50%;}
 
 }
 
@@ -246,7 +254,9 @@ h2 {
 
 @media only screen and (min-width: 960px) {
 
-  .c-site-nav {width: 40%;}
+  // .c-name {width: 60%;}
+  
+  // .c-site-nav {width: 40%;}
 
 }
 
