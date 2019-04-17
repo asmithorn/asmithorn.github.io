@@ -98,6 +98,9 @@ https://github.com/IanLunn/Hover/blob/master/scss/hover.scss
 
 
 /*--ELEMENTS--*/
+*{
+  box-sizing: border-box;
+}
 
 html {
   font-family: 'unnaregular', 'Times New Roman', Times, serif;
