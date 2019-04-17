@@ -134,7 +134,13 @@ h2 {
 
 
 /*--OBJECTS--*/
-.o-row {}
+.o-row {
+  &::before, &::after {
+    content: '';
+    display: table;
+  }
+  &::before {clear: both;}
+}
 
 
 
@@ -187,6 +193,10 @@ h2 {
 
 
 /*--UTILITIES--*/
+
+.u-border-bottom--solid {border-bottom-style: solid;}
+.u-border-bottom--width-2 {border-bottom-width: 2px;}
+.u-border-bottom--white {border-bottom-color: white;}
 
 .u-center {text-align: center;}
 
