@@ -228,13 +228,9 @@ h2 {
     justify-content: space-between;
   }
 
-  .c-name {
-    text-align: left;
-    // width: 40%;
-  }
+  .c-name {text-align: left;}
 
-  // .c-site-nav {width: 60%;}
-    .c-site-nav {flex-grow: 2;}
+  .c-site-nav {flex-basis: 60%;}
 
 }
 
@@ -243,9 +239,7 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 
-  // .c-name {width: 50%;}
-
-  // .c-site-nav {width: 50%;}
+  .c-site-nav {flex-basis: 50%;}
 
 }
 
@@ -253,10 +247,8 @@ h2 {
 
 
 @media only screen and (min-width: 960px) {
-
-  // .c-name {width: 60%;}
   
-  // .c-site-nav {width: 40%;}
+  .c-site-nav {flex-basis: 40%;}
 
 }
 
