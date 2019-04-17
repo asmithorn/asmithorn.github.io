@@ -194,13 +194,21 @@ h2 {
 
 /*--UTILITIES--*/
 
-.u-border-bottom--solid {border-bottom-style: solid;}
-.u-border-bottom--width-2 {border-bottom-width: 2px;}
-.u-border-bottom--white {border-bottom-color: white;}
+// .u-border-bottom--solid {border-bottom-style: solid;}
+// .u-border-bottom--width-2 {border-bottom-width: 2px;}
+// .u-border-bottom--white {border-bottom-color: white;}
 
 .u-center {text-align: center;}
 
 .u-padding--20 {padding: 1.25em;}
+
+.u-row-header {
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 .5em;
+  width: fit-content;
+}
 
 
 
