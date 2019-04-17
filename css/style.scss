@@ -114,7 +114,7 @@ body {
   background-image: linear-gradient(to bottom right, $maroon, $teal);
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
