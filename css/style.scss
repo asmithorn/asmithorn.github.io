@@ -219,7 +219,16 @@ h3 {
   .c-list {
     @include list-reset();
     li {
-      margin-bottom: .5em;
+      margin-bottom: 1em;
+      &::before {
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 50%;
+        content:'';
+        height: 2px;
+        padding: 0 .5em;
+        vertical-align: middle;
+        width: 2px;
+      }
     }
   }
 
