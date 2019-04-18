@@ -259,6 +259,7 @@ h3 {
   width: max-content; //Firefox fix
   width: fit-content; //will need to check this on IE and Edge
 }
+.u-row-header--black {border-bottom-color: black;}
 .u-text--center {text-align: center;}
 .u-text--large {font-size: 2em;}
 
@@ -303,6 +304,15 @@ h3 {
 
 
 @media only screen and (min-width: 768px) {
+
+  .o-three-col {
+    display: -ms-grid;//?
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;//?
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-colum-gap: 1.25rem;//?
+    grid-column-gap: 1.25rem;
+  }
 
   .c-site-nav {flex-basis: 50%;}
 
