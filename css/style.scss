@@ -131,6 +131,13 @@ h2 {
   margin: 0 0 0.5em 0;
 }
 
+h3 {
+  font-family: 'unnabold';
+  font-size: 1.25em;
+  letter-spacing: $tracking;
+  margin: 0 0 0.5em 0;
+}
+
 
 
 
@@ -220,10 +227,9 @@ h2 {
 .u-image--round {border-radius: 50%;}
 
 
-.u-margin--20 {margin: 1.25em;}
-.u-margin--b-20 {margin-bottom: 1.25em;}
 .u-margin--w-20-120 {margin: 0 1.25em;}
 .u-padding--20 {padding: 1.25em;}
+.u-padding--b-20 {padding-bottom: 1.25em;}
 
 
 
