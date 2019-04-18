@@ -18,6 +18,8 @@ $gray: #CED3DC;
 
 $tracking: .03em;
 
+$vspace: 2.5rem;
+
 
 
 
@@ -152,6 +154,11 @@ h3 {
   &::after {clear: both;}
 }
 
+  .o-row--v-padding {
+    padding-top: $vspace;
+    padding-bottom: $vspace;
+  }
+
 .o-two-col {
   display: -ms-grid;//?
   display: grid;
@@ -237,8 +244,8 @@ h3 {
 
 
 .u-margin--w-20-120 {margin: 0 1.25em;}
-.u-padding--20 {padding: 1.25em;}
-.u-padding--b-20 {padding-bottom: 1.25em;}
+//.u-padding--20 {padding: 1.25em;}
+//.u-padding--b-20 {padding-bottom: 1.25em;}
 
 
 
