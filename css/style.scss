@@ -224,10 +224,11 @@ h3 {
         background-color: rgba(255,255,255,0.5);
         border-radius: 50%;
         content:'';
-        height: 2px;
-        padding: 0 .5em;
+        display: inline-block;
+        height: 4px;
+        margin: 0 .5em 0.2em 0.5em;
         vertical-align: middle;
-        width: 2px;
+        width: 4px;
       }
     }
   }
@@ -280,6 +281,12 @@ h3 {
     justify-content: space-between;
   }
 
+  .c-list {
+    display: flex;
+    flex-wrap: wrap;
+    li {width: 50%;}
+  }
+
   .c-name {text-align: left;}
 
   .c-site-nav {flex-basis: 60%;}
@@ -299,6 +306,8 @@ h3 {
 
 
 @media only screen and (min-width: 960px) {
+
+  .c-list li {width: 33%;}
   
   .c-site-nav {flex-basis: 40%;}
 
