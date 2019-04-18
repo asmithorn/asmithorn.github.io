@@ -243,8 +243,11 @@ h3 {
 .u-image--round {border-radius: 50%;}
 
 
-.u-margin--w-20-120 {margin: 0 1.25em;}
-//.u-padding--20 {padding: 1.25em;}
+.u-padding--w-20-120 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.u-padding--20 {padding: 1.25rem;}
 //.u-padding--b-20 {padding-bottom: 1.25em;}
 
 
@@ -282,7 +285,10 @@ h3 {
   
   .c-site-nav {flex-basis: 40%;}
 
-  .u-margin--w-20-120 {margin: 0 7.5em;}
+  .u-padding--w-20-120 {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
 
 }
 
