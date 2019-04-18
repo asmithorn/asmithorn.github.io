@@ -201,14 +201,9 @@ h2 {
 // .u-border-bottom--width-2 {border-bottom-width: 2px;}
 // .u-border-bottom--white {border-bottom-color: white;}
 
-.u-center {text-align: center;}
 
-.u-image-round {border-radius: 50%;}
+.u-bg--teal {background-color: teal;}
 
-.u-margin--b-20 {margin-bottom: 1.25em;}
-.u-margin--w-20-120 {margin: 0 1.25em;}
-
-.u-padding--20 {padding: 1.25em;}
 
 .u-row-header {
   border-bottom: 2px solid white;
@@ -218,8 +213,19 @@ h2 {
   width: max-content; //Firefox fix
   width: fit-content; //will need to check this on IE and Edge
 }
-
+.u-text--center {text-align: center;}
 .u-text--large {font-size: 1.5em;}
+
+
+.u-image--round {border-radius: 50%;}
+
+
+.u-margin--20 {margin: 1.25em;}
+.u-margin--b-20 {margin-bottom: 1.25em;}
+.u-margin--w-20-120 {margin: 0 1.25em;}
+.u-padding--20 {padding: 1.25em;}
+
+
 
 
 
