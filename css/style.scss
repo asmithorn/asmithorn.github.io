@@ -216,6 +216,14 @@ h3 {
     color: $maroon;
   }
 
+  .c-list {
+    @include list-reset();
+    li {
+      margin-bottom: .5em;
+    }
+  }
+
+
 
 
 /*--UTILITIES--*/
