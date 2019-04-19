@@ -145,6 +145,11 @@ img {
   max-width: 100%;
 }
 
+a {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+}
+
 
 
 
@@ -267,10 +272,10 @@ img {
   color: $maroon;
   text-decoration: none;
   &:hover, &:focus {
-    color: adjust-lightness($maroon, -10%);
+    color: #35001C;
     text-decoration: underline;
   }
-  &:active {color: adjust-lightness($maroon, -20%);}
+  &:active {color: #300019;}
 }
 .u-row-header {
   border-bottom: 2px solid white;
