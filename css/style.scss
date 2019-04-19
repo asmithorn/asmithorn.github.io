@@ -301,6 +301,14 @@ img {
     grid-column-gap: 1.25rem;
   }
 
+    .o-two-col__left {
+      grid-column-start: col-start 1;
+    }
+
+    .o-two-col__right {
+      grid-column-start: col-start 2;
+    }
+
   .c-list {
     align-items: flex-start;
     display: flex;
