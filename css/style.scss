@@ -257,11 +257,20 @@ img {
 .u-color--black {color: black;}
 
 
-.u-divider {
-  background-color: #BCC0C8;
-  display: block;
-  height: 2px;
-  margin: 0 1.25rem;
+// .u-divider {
+//   background-color: #BCC0C8;
+//   display: block;
+//   height: 2px;
+//   margin: 0 1.25rem;
+// }
+.u-link {
+  color: $maroon;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: adjust-lightness($maroon, -10%);
+    text-decoration: underline;
+  }
+  &:active {color: adjust-lightness($maroon, -20%);}
 }
 .u-row-header {
   border-bottom: 2px solid white;
