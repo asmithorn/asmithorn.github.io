@@ -164,7 +164,7 @@ img {
     padding-bottom: $vspace;
   }
 
-.o-two-col {
+.o-two-col--mobile {
   display: -ms-grid;//?
   display: grid;
   -ms-grid-columns: 1fr 1fr;//?
@@ -290,6 +290,15 @@ img {
   .o-layout__header {
     display: flex;
     justify-content: space-between;
+  }
+
+  .o-two-col {
+    display: -ms-grid;//?
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;//?
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-colum-gap: 1.25rem;//?
+    grid-column-gap: 1.25rem;
   }
 
   .c-list {
