@@ -314,10 +314,8 @@ a {
 /*--BROWSER COMPATIBILITY HACKS--*/
 
 //IE and Edge
-_:-ms-lang(x), {
-  .o-two-col__right--mobile {margin-left: 1.25rem;}
-  .c-site-nav__list { justify-content: space-around; }
-}
+_:-ms-lang(x), .o-two-col__right--mobile {margin-left: 1.25rem;}
+_:-ms-lang(x), .c-site-nav__list { justify-content: space-around; }
 
 
 
@@ -365,9 +363,7 @@ _:-ms-lang(x), {
 
   .c-site-nav {flex-basis: 60%;}
 
-  _:-ms-lang(x), {
-    .o-two-col__right {margin-left: 1.25rem;}
-  }
+  _:-ms-lang(x), .o-two-col__right {margin-left: 1.25rem;}
 
 }
 
