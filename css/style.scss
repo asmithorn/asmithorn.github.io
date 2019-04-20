@@ -206,9 +206,10 @@ a {
   .c-site-nav__list {
     @include list-reset();
     display: flex;
-    justify-content: space-around;
     justify-content: space-evenly;
   }
+
+  _:-ms-lang(x), .c-site-nav__list { justify-content: space-around; }
 
   .c-site-nav__link {
     border-radius: .25em;
