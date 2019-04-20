@@ -384,7 +384,18 @@ _:-ms-lang(x), .c-site-nav__list { justify-content: space-around; }
     grid-column-gap: 1.25rem;
   }
 
+    .o-three-col__left {-ms-grid-column: 1;}
+
+    .o-three-col__middle {-ms-grid-column: 2;}
+
+    .o-three-col__right {-ms-grid-column: 3;}
+
   .c-site-nav {flex-basis: 50%;}
+
+  //IE
+  _:-ms-input-placeholder, :root .o-three-col__middle {margin-left: 1.25rem;}
+
+  _:-ms-input-placeholder, :root .o-three-col__right {margin-left: 1.25rem;}
 
 }
 
