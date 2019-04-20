@@ -404,6 +404,12 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
 
 
 @media only screen and (min-width: 960px) {
+
+  .o-row--960 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .c-site-nav {flex-basis: 40%;}
 
