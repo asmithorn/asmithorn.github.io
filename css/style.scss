@@ -206,6 +206,7 @@ a {
   .c-site-nav__list {
     @include list-reset();
     display: flex;
+    justify-content: space-around; //works in Edge
     justify-content: space-evenly;
   }
 
@@ -282,7 +283,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 0 .5em;
-  width: max-content; //Firefox fix
+  width: -moz-fit-content; //Firefox fix
   width: fit-content; //will need to check this on IE and Edge
 }
 .u-row-header--black {border-bottom-color: black;}
