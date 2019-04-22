@@ -278,13 +278,16 @@ a {
 //   margin: 0 1.25rem;
 // }
 .u-link {
+  border: 1px solid $maroon;
+  border-radius: .25em;
   color: $maroon;
+  padding: .2em .4em;
   text-decoration: none;
   &:hover, &:focus {
-    color: #35001C;
-    text-decoration: underline;
+    background-color: #35001C;
+    color: white;
   }
-  &:active {color: #300019;}
+  &:active {background-color: #300019;}
 }
 .u-row-header {
   border-bottom: 2px solid white;
