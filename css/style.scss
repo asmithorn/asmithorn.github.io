@@ -257,12 +257,15 @@ a {
   @include list-reset();
   display: flex;
   justify-content: space-between;
+  margin: 2.5rem 0;
 
   a {
     color: white;
     &:hover, &:focus {text-decoration: none;}
   }
 }
+
+  .c-footer__graphic {fill: white;}
 
 
 
