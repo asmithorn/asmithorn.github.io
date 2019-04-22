@@ -283,9 +283,15 @@ a {
   color: $maroon;
   padding: .2em .4em;
   text-decoration: none;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
   &:hover, &:focus {
     background-color: #35001C;
     color: white;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
   }
   &:active {background-color: #300019;}
 }
