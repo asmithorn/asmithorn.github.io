@@ -255,9 +255,10 @@ a {
 
 .c-footer {
   @include list-reset();
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem 0;
+  margin: 1.25rem 0;
 
   a {
     color: white;
@@ -265,7 +266,10 @@ a {
   }
 }
 
-  .c-footer__graphic {fill: white;}
+  .c-footer__graphic {
+    fill: white;
+    height: 5em;
+  }
 
 
 
