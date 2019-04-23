@@ -201,9 +201,19 @@ a {
     position: absolute;
     right: 50%;
     text-align: center;
-    top: 50%;
+    top: 20%;
     transform: translate(50%, -50%);
     z-index: 1000;
+  }
+
+  .c-hero__name {
+    border-bottom: 1px solid white;
+    font-size: 2em;
+  }
+
+  .c-hero__tagline {
+    font-family: 'unnabold';
+    font-size: 2.5em;
   }
 
 .c-name {
@@ -335,7 +345,7 @@ a {
   margin-right: auto;
   padding: 0 .5em;
   width: -moz-fit-content; //Firefox fix
-  width: fit-content; //will need to check this on IE and Edge
+  width: fit-content; //does not work on IE and Edge
 }
 .u-row-header--black {border-bottom-color: black;}
 .u-text--center {text-align: center;}
