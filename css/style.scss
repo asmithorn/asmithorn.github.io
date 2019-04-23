@@ -110,12 +110,17 @@ html {
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background-image: linear-gradient(to bottom right, $maroon, $teal);
   background-repeat: no-repeat;
   color: white;
+  font-size: 1em;
   min-height: 100vh;
 }
 
