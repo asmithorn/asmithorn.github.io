@@ -190,6 +190,21 @@ a {
 
 /*--COMPONENTS--*/
 
+.c-hero {
+  position: relative;
+}
+
+  .c-hero__overlay {
+    background-color: rgba(0,0,0,0.5);)
+    display: block;
+    padding: 1em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+
 .c-name {
   color: $pink;
   margin-bottom: 1.25em;
