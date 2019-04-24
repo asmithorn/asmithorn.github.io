@@ -302,7 +302,7 @@ a {
   @include list-reset();
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 1.25rem 0;
 
   a {
@@ -312,8 +312,9 @@ a {
 }
 
   .c-footer__graphic {
-    fill: white;
+    fill: rgba(255,255,255,0.5);
     height: 5em;
+    padding: 0 2em;
   }
 
 
