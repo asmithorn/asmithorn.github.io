@@ -323,6 +323,9 @@ a {
 
 .u-bg--gray {background-color: $gray;}
 .u-bg--gray-alpha {background-color: rgba(206, 211, 220, 0.7);}
+.u-bg--image-door {
+  background: url(/resources/home/greece-green-door.jpg) center cover no-repeat;
+}
 .u-bg--pink {background-color: $pink;}
 .u-bg--teal {background-color: #436C6F;}
 .u-box-shadow {box-shadow: 2px 2px 5px rgba(0,0,0,0.5);}
