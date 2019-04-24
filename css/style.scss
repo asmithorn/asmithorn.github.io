@@ -195,41 +195,6 @@ a {
 
 /*--COMPONENTS--*/
 
-.c-hero {
-  position: relative;
-}
-
-  .c-hero__image {
-    display: block;
-  }
-
-  .c-hero__overlay {
-    background-color: rgba(0,0,0,0.6);
-    display: block;
-    padding: 1em;
-    //position: absolute;
-    //right: 50%;
-    text-align: center;
-    //top: 20%;
-    //transform: translate(50%, 0);
-    //width: 80%;
-    //z-index: 1000;
-  }
-
-  .c-hero__name {
-    border-bottom: 1px solid white;
-    font-size: 2em;
-    letter-spacing: $tracking;
-    margin: 0;
-  }
-
-  .c-hero__tagline {
-    font-family: 'unnabold';
-    font-size: 2.5em;
-    letter-spacing: $tracking;
-    margin: 0;
-  }
-
 .c-name {
   color: $pink;
   margin-bottom: 1.25em;
@@ -322,11 +287,6 @@ a {
 
 /*--UTILITIES--*/
 
-// .u-border-bottom--solid {border-bottom-style: solid;}
-// .u-border-bottom--width-2 {border-bottom-width: 2px;}
-// .u-border-bottom--white {border-bottom-color: white;}
-
-
 .u-bg--gray {background-color: $gray;}
 .u-bg--gray-alpha {background-color: rgba(206, 211, 220, 0.7);}
 .u-bg--image-door {
@@ -343,12 +303,6 @@ a {
 .u-color--black {color: black;}
 
 
-// .u-divider {
-//   background-color: #BCC0C8;
-//   display: block;
-//   height: 2px;
-//   margin: 0 1.25rem;
-// }
 .u-link {
   border: 1px solid $maroon;
   border-radius: .25em;
@@ -401,7 +355,6 @@ a {
   padding-right: 1.25rem;
 }
 .u-padding--20 {padding: 1.25rem;}
-//.u-padding--b-20 {padding-bottom: 1.25em;}
 
 
 
@@ -482,11 +435,10 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
 @media only screen and (min-width: 768px) {
 
   .o-three-col {
-    display: -ms-grid;//?
+    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;//?
+    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(3, 1fr);
-    -ms-grid-colum-gap: 1.25rem;//?
     grid-column-gap: 1.25rem;
   }
 
@@ -496,12 +448,9 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
 
     .o-three-col__right {-ms-grid-column: 3;}
 
-  .c-hero__overlay {
-    top: 10%;
-    width: 30em;
-  }
-
   .c-site-nav {flex-basis: 50%;}
+
+  .u-bg--image-door {min-height: 70vh;}
 
   //IE
   _:-ms-input-placeholder, :root .o-three-col__middle {margin-left: 1.25rem;}
