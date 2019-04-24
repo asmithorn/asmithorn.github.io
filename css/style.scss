@@ -423,6 +423,12 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
 /*--MEDIA QUERIES--*/
 @media only screen and (min-width: 600px) {
 
+  .o-row--700 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   .o-layout__header {
     display: flex;
     justify-content: space-between;
@@ -459,6 +465,10 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
   .c-name {text-align: left;}
 
   .c-site-nav {flex-basis: 60%;}
+
+    .c-site-nav__link--home {
+      padding: 2em;
+    }
 
   //IE
   _:-ms-input-placeholder, :root .o-two-col__right {margin-left: 1.25rem;}
