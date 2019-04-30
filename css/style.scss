@@ -209,15 +209,16 @@ a {
 
     a {
       color: white;
-      &:hover, &:focus {fill: white;}
     }
   }
 
   .c-contact__icon {
-    display: inline-block;
+    display: block;
     fill: rgba(255,255,255, 0.5);
-    height: 1.25em;
-    vertical-align: middle;
+    line-height: 1;
+    margin: 0 1em;
+    width: 2em;
+    &:hover, &:focus {fill: white;}
   }
 
 .c-list {
