@@ -198,6 +198,7 @@ a {
 .c-contact {
   display: block;
   margin: 1em auto;
+  text-align: center;
   width: 320px;
 }
 
@@ -205,6 +206,11 @@ a {
     @include list-reset();
     display: flex;
     justify-content: space-around;
+
+    a {
+      color: white;
+      &:hover, &:focus {fill: white;}
+    }
   }
 
   .c-contact__icon {
@@ -353,16 +359,16 @@ margin: 1.25rem 0;
 .u-text--large {font-size: 2em;}
 .u-text--medium {font-size: 1.5em;}
 .u-text--shadow {text-shadow: 2px 2px 3px rgba(0,0,0,0.7);}
-// .u-hidden {
-//   border: 0;
-//   clip: rect(0 0 0 0);
-//   height: 1px;
-//   margin: -1px;
-//   overflow: hidden;
-//   padding: 0;
-//   position: absolute;
-//   width: 1px;
-// }
+.u-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 
 
 .u-image--round {border-radius: 50%;}
