@@ -205,7 +205,7 @@ a {
   .c-contact__list {
     @include list-reset();
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     a {
       color: white;
