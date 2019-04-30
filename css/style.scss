@@ -195,6 +195,64 @@ a {
 
 /*--COMPONENTS--*/
 
+.c-contact {
+  display: block;
+  margin: 1em auto;
+  width: 320px;
+}
+
+  .c-contact__list {
+    @include list-reset();
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .c-contact__icon {
+    display: inline-block;
+    fill: rgba(255,255,255, 0.5);
+    height: 1.25em;
+    vertical-align: middle;
+  }
+
+.c-list {
+  @include list-reset();
+  li {
+    align-items: center;
+    display: flex;
+    margin-bottom: 1em;
+
+    &::before {
+      background-color: rgba(255,255,255,0.5);
+      border-radius: 50%;
+      content:'';
+      display: block;
+      height: 4px;
+      margin: 0 .5em 0 0.5em;
+      width: 4px;
+    }
+
+  }
+}
+
+.c-footer {
+@include list-reset();
+align-items: center;
+display: flex;
+justify-content: center;
+margin: 1.25rem 0;
+
+  a {
+    color: white;
+    &:hover, &:focus {text-decoration: none;}
+  }
+}
+
+  .c-footer__graphic {
+    fill: rgba(255,255,255,0.5);
+    height: 5em;
+    padding: 0 2em;
+  }
+
 .c-name {
   color: $pink;
   margin-bottom: 1.25em;
@@ -241,45 +299,6 @@ a {
   .c-site-nav__link--active {
     background-color: $pink;
     color: $maroon;
-  }
-
-  .c-list {
-    @include list-reset();
-    li {
-      align-items: center;
-      display: flex;
-      margin-bottom: 1em;
-
-      &::before {
-        background-color: rgba(255,255,255,0.5);
-        border-radius: 50%;
-        content:'';
-        display: block;
-        height: 4px;
-        margin: 0 .5em 0 0.5em;
-        width: 4px;
-      }
-
-    }
-  }
-
-.c-footer {
-  @include list-reset();
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: 1.25rem 0;
-
-  a {
-    color: white;
-    &:hover, &:focus {text-decoration: none;}
-  }
-}
-
-  .c-footer__graphic {
-    fill: rgba(255,255,255,0.5);
-    height: 5em;
-    padding: 0 2em;
   }
 
 
@@ -332,6 +351,7 @@ a {
 .u-row-header--black {border-bottom-color: black;}
 .u-text--center {text-align: center;}
 .u-text--large {font-size: 2em;}
+.u-text--medium {font-size: 1.5em;}
 .u-text--shadow {text-shadow: 2px 2px 3px rgba(0,0,0,0.7);}
 // .u-hidden {
 //   border: 0;
