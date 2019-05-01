@@ -278,7 +278,13 @@ margin: 1.25rem 0;
     margin: 0;
   }
 
-// .c-resume {}
+ .c-resume {
+   a {
+     color: $maroon;
+     &:hover, &:focus {text-decoration: none;}
+     &:visited {color: $maroon;}
+   }
+ }
 
   .c-resume__list {
     @include list-reset();
