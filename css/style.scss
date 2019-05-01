@@ -15,14 +15,14 @@
 
 @media print {
   *{
-    background: transparent;
+    background-image: none;
+    background-color: transparent;
     color: black;
   }
 
   body {font-size: 12px;}
 
-  nav, 
-  footer {
-    display: none;
-  }
+  nav {display: none;}
+
+  footer {display: none;}
 }
