@@ -20,6 +20,8 @@
     color: black;
   }
 
+  a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+
   body {font-size: 12px;}
 
   nav {display: none;}
