@@ -278,6 +278,26 @@ margin: 1.25rem 0;
     margin: 0;
   }
 
+// .c-resume {}
+
+  .c-resume__list {
+    @include list-reset();
+  }
+
+  .c-resume__list-item {
+    margin-bottom: 1.5em;
+  }
+
+  .c-resume__heading {
+    font-family: "unnabold";
+  }
+
+  // .c-resume__location {}
+
+  // .c-resume__date {}
+
+  // .c-resume__desc {}
+
 //.c-site-nav {}
 
   .c-site-nav__list {
