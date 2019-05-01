@@ -285,12 +285,15 @@ margin: 1.25rem 0;
   }
 
   .c-resume__list-item {
+    border-left: 2px dotted #bbb;
     margin-bottom: 1.5em;
+    margin-left: .5em;
+    padding-left: .5em;
   }
 
   .c-resume__heading {
-    color: $maroon;
     font-family: "unnabold";
+    font-size: 1.15em;
   }
 
   .c-resume__location {
@@ -299,6 +302,7 @@ margin: 1.25rem 0;
 
   .c-resume__date {
     color: #444;
+    font-style: italic;
   }
 
   .c-resume__desc {
