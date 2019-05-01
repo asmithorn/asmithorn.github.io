@@ -289,14 +289,22 @@ margin: 1.25rem 0;
   }
 
   .c-resume__heading {
+    color: $maroon;
     font-family: "unnabold";
   }
 
-  // .c-resume__location {}
+  .c-resume__location {
+    color: #444;
+  }
 
-  // .c-resume__date {}
+  .c-resume__date {
+    color: #444;
+  }
 
-  // .c-resume__desc {}
+  .c-resume__desc {
+    display: block;
+    margin-top: .5em;
+  }
 
 //.c-site-nav {}
 
