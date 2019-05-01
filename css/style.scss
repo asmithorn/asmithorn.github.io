@@ -12,3 +12,12 @@
 @import "components";
 @import "utilities";
 @import "hacks";
+
+@media print {
+  *{
+    background: transparent;
+    color: black;
+  }
+
+  body {font-size: 12px;}
+}
