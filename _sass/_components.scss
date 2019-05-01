@@ -165,3 +165,40 @@ margin: 1.25rem 0;
     background-color: $pink;
     color: $maroon;
   }
+
+
+
+
+/*--MEDIA QUERIES--*/
+@media only screen and (min-width: 600px) {
+
+  .c-list {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    li {width: 50%;}
+  }
+
+  .c-name {text-align: left;}
+
+  .c-site-nav {flex-basis: 60%;}
+
+    .c-site-nav__link--home {
+      padding: 2em;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .c-site-nav {flex-basis: 50%;}
+
+}
+
+
+@media only screen and (min-width: 960px) {
+  
+  .c-site-nav {flex-basis: 40%;}
+
+}

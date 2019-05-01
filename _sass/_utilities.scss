@@ -85,3 +85,23 @@
   padding-right: 1.25rem;
 }
 .u-padding--20 {padding: 1.25rem;}
+
+
+
+
+/*--MEDIA QUERIES--*/
+@media only screen and (min-width: 768px) {
+
+  .u-bg--image-door {min-height: 70vh;}
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .u-padding--w-20-120 {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+
+}
