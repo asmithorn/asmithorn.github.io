@@ -1,0 +1,32 @@
+/*--OBJECTS--*/
+.o-row {
+  &::before, &::after {
+    content: '';
+    display: table;
+  }
+  &::after {clear: both;}
+}
+
+  .o-row--v-padding {
+    padding-top: $vspace;
+    padding-bottom: $vspace;
+  }
+
+
+
+  
+.o-two-col--mobile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.25rem;
+}
+
+  .o-two-col__left--mobile {
+    -ms-grid-column: 1;
+  }
+
+  .o-two-col__right--mobile {
+    -ms-grid-column: 2;
+  }

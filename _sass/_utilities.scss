@@ -1,0 +1,87 @@
+/*--UTILITIES--*/
+
+//color
+.u-bg--gray {background-color: $gray;}
+.u-bg--gray-alpha {background-color: rgba(206, 211, 220, 0.7);}
+.u-bg--image-door {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.5), rgba(0,0,0,0)), url(/resources/home/greece-green-door.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+.u-bg--maroon {background-color: $maroon;}
+.u-bg--pink {background-color: $pink;}
+.u-bg--teal {background-color: #436C6F;}
+
+.u-box-shadow {box-shadow: 2px 2px 5px rgba(0,0,0,0.5);}
+
+.u-color--black {color: black;}
+
+
+
+
+//text
+.u-link {
+  border: 1px solid $maroon;
+  border-radius: .25em;
+  color: $maroon;
+  padding: .2em .4em;
+  text-decoration: none;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  &:hover, &:focus {
+    background-color: #300019;
+    color: white;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+  &:active {background-color: #250014;}
+}
+
+.u-row-header {
+  border-bottom: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 .5em;
+  width: -moz-fit-content; //Firefox fix
+  width: fit-content; //does not work on IE and Edge
+}
+.u-row-header--black {border-bottom-color: black;}
+
+.u-text--center {text-align: center;}
+.u-text--large {font-size: 2em;}
+.u-text--medium {font-size: 1.5em;}
+.u-text--shadow {text-shadow: 2px 2px 3px rgba(0,0,0,0.7);}
+
+.u-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+
+
+//image
+.u-image--round {border-radius: 50%;}
+
+
+
+
+//spacing
+.u-margin-bottom--10 {margin-bottom: .625rem;}
+.u-margin-bottom--20 {margin-bottom: 1.25rem;}
+
+.u-padding--w-20-120 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.u-padding--20 {padding: 1.25rem;}
