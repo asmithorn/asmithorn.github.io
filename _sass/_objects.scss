@@ -57,6 +57,14 @@
     grid-column-gap: 1.25rem;
   }
 
+  .o-two-col--artwork {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.25rem;
+  }
+
     .o-two-col__left {
       -ms-grid-column: 1;
       grid-column-start: 1;
