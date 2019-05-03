@@ -16,6 +16,8 @@ _:-ms-lang(x), .u-row-header {text-align: center;}
   //IE
   _:-ms-input-placeholder, :root .o-two-col__right {margin-left: 1.25rem;}
 
+  _:-ms-input-placeholder, :root .o-two-col__right .o-two-col__right--artwork {margin-left: 1.25rem;}
+
 }
 
 @media only screen and (min-width: 768px) {
