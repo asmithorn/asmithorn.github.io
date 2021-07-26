@@ -22,6 +22,11 @@
 
 
 //text
+.u-color--black a {
+  color: black;
+  &:hover, &:focus {text-decoration: none;}
+}
+
 .u-link {
   border: 1px solid $maroon;
   border-radius: .25em;
